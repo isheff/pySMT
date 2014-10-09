@@ -19,7 +19,7 @@ Pysmt: your friend when converting z3 SMT2 extensions and such to QF_BV
     all tags are optional, save for the input file. It will generate output
     files in /tmp/ unless you give it an alternative.
 
-    The resulting QF_BV input to your solver will be expanded by a constant
+The resulting QF_BV input to your solver will be expanded by a constant
     factor in the overall length of your file times a constant factor of the
     length of your BitVecs. (Since BitVecs can be declared in a file of size
     logarithmic in their length, this is technically exponential expansion of
